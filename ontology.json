@@ -1,0 +1,7 @@
+{
+  "worlds": [[0, 0], [1, 0], [0, 1], [1, 1]],
+  "fault_names": ["inner_race", "outer_race"],
+  "actions": ["continue", "service_inner", "service_outer", "service_both", "inspect"],
+  "action_cost": [[0, 10, 10, 20], [3, 0, 13, 10], [3, 13, 0, 10], [6, 3, 3, 0], [0, 0, 0, 0]],
+  "inspection_cost": [0, 0, 0, 0, 2]
+}
